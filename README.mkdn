@@ -1,0 +1,72 @@
+
+## To setup build environment
+
+Firsly, install `git`, using whatever package manager has.
+
+Then, run these commands
+
+```bash
+git clone https://github.com/thairc/scripts
+cd scripts
+bash setup/<name of script>
+```
+
+If running Arch Linux, please enable multilib, and install yaourt, before running the script :)
+Please choose the name dependending on the distro you have =)
+
+Enjoy!
+
+## GUILD
+
+ Step 1 : Clone the scripts repo. Use the following code to clone the repo.
+
+    git clone https://github.com/thairc/scripts.git
+
+
+ Step 2 : Go to the directory which we cloned in previous step.
+
+    cd scripts/setup
+
+
+ Step 3 : Executing the script according to the os you use.
+For example : You use ubuntu 16.04, then you will have to execute ubuntu1604linuxmint18.sh script.
+
+For Linux Mint 17x :
+
+    bash linuxmint17x.sh
+
+
+ For Ubuntu 14.04 :
+
+    bash ubuntu1404.sh
+
+
+For Ubuntu 16.04 or Linux Mint 18 :
+
+    bash ubuntu1604linuxmint18.sh
+
+
+All the tools will be installed after executing the script automatically.Just wait untill they get installed
+
+
+
+### Brief explanation of stuff in here
+
+
+build-rom -> has a bunch of random build scripts I use to build ROMs.
+
+crowdin -> bunch of scripts I use for RR's crowdin.
+
+gerrit -> useful for gerrit up gerrit and stuff.
+
+merge -> scripts to merge upstream AOSP/CAF into a ROM source.
+
+misc -> stuff.
+
+push -> scripts to push multiple repos at once if you don't wanna do it manually #lazyAf.
+
+random-html -> generates an index.html with a table with the list of files in current directory.
+
+setup -> setup Android Build Environment / Android SDK.
+
+utils -> some utilities?
